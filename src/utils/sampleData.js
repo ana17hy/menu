@@ -1,0 +1,113 @@
+export const proteinOptions = [
+  'pollo',
+  'res',
+  'pescado',
+  'atún',
+  'huevo',
+  'cerdo',
+  'menestra',
+  'vegetariano',
+];
+
+export const sideOptions = [
+  'arroz',
+  'fideo',
+  'papa',
+  'ensalada',
+  'menestra',
+  'quinua',
+  'otros',
+];
+
+export const weekDays = [
+  'Lunes',
+  'Martes',
+  'Miércoles',
+  'Jueves',
+  'Viernes',
+  'Sábado',
+  'Domingo',
+];
+
+export const sampleDishes = [
+  {
+    id: 'aji-de-gallina',
+    name: 'Ají de gallina',
+    protein: 'pollo',
+    side: 'arroz',
+    ingredients: ['pollo', 'pan', 'leche', 'ají amarillo', 'cebolla', 'ajo', 'arroz', 'papa'],
+    preparation: 'Sancochar el pollo, deshilachar y mezclar con una crema de ají amarillo, pan remojado y leche. Servir con arroz y papa.',
+  },
+  {
+    id: 'pollo-al-horno',
+    name: 'Pollo al horno',
+    protein: 'pollo',
+    side: 'papa',
+    ingredients: ['pollo', 'papa', 'limón', 'ajo', 'mostaza', 'ensalada', 'sal'],
+    preparation: 'Marinar el pollo, hornear con papas y servir con una ensalada fresca.',
+  },
+  {
+    id: 'tallarines-rojos',
+    name: 'Tallarines rojos',
+    protein: 'res',
+    side: 'fideo',
+    ingredients: ['fideo', 'carne molida', 'tomate', 'cebolla', 'zanahoria', 'ajo', 'laurel'],
+    preparation: 'Preparar una salsa de tomate con carne y verduras. Mezclar con los tallarines cocidos.',
+  },
+  {
+    id: 'tallarines-verdes',
+    name: 'Tallarines verdes',
+    protein: 'vegetariano',
+    side: 'fideo',
+    ingredients: ['fideo', 'espinaca', 'albahaca', 'queso fresco', 'leche', 'ajo', 'nueces'],
+    preparation: 'Licuar las hojas con queso, leche y ajo. Calentar la salsa y mezclar con el fideo.',
+  },
+  {
+    id: 'arroz-chaufa',
+    name: 'Arroz chaufa',
+    protein: 'huevo',
+    side: 'arroz',
+    ingredients: ['arroz', 'huevo', 'pollo', 'sillao', 'cebolla china', 'kion', 'pimiento'],
+    preparation: 'Saltear arroz frío con huevo, pollo, verduras y sillao a fuego alto.',
+  },
+  {
+    id: 'atun-con-arroz',
+    name: 'Atún con arroz',
+    protein: 'atún',
+    side: 'arroz',
+    ingredients: ['atún', 'arroz', 'cebolla', 'tomate', 'limón', 'palta', 'sal'],
+    preparation: 'Mezclar atún con cebolla, tomate y limón. Servir con arroz y palta.',
+  },
+  {
+    id: 'lentejas',
+    name: 'Lentejas',
+    protein: 'menestra',
+    side: 'menestra',
+    ingredients: ['lentejas', 'arroz', 'cebolla', 'ajo', 'zanahoria', 'comino', 'huevo'],
+    preparation: 'Guisar las lentejas con aderezo y verduras. Acompañar con arroz y huevo si deseas.',
+  },
+  {
+    id: 'seco-de-res',
+    name: 'Seco de res',
+    protein: 'res',
+    side: 'arroz',
+    ingredients: ['res', 'culantro', 'arvejas', 'zanahoria', 'cebolla', 'ajo', 'arroz', 'yuca'],
+    preparation: 'Cocinar la carne en salsa de culantro con verduras hasta que quede suave.',
+  },
+  {
+    id: 'estofado-de-pollo',
+    name: 'Estofado de pollo',
+    protein: 'pollo',
+    side: 'papa',
+    ingredients: ['pollo', 'papa', 'zanahoria', 'arvejas', 'tomate', 'cebolla', 'ajo', 'arroz'],
+    preparation: 'Dorar el pollo y cocinarlo con tomate, verduras y papas hasta formar una salsa casera.',
+  },
+  {
+    id: 'tortilla-de-verduras',
+    name: 'Tortilla de verduras',
+    protein: 'huevo',
+    side: 'ensalada',
+    ingredients: ['huevo', 'zapallito', 'zanahoria', 'cebolla', 'espinaca', 'ensalada', 'queso'],
+    preparation: 'Batir huevos, mezclar con verduras picadas y cocinar en sartén hasta dorar.',
+  },
+];
